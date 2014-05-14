@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A27E93192352BE00D826C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A27E92192352BE00D826C0 /* Foundation.framework */; };
+		00A27E95192352BE00D826C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A27E94192352BE00D826C0 /* CoreGraphics.framework */; };
+		00A27E97192352BE00D826C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A27E96192352BE00D826C0 /* UIKit.framework */; };
+		00A27E9D192352BE00D826C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00A27E9B192352BE00D826C0 /* InfoPlist.strings */; };
+		00A27E9F192352BE00D826C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A27E9E192352BE00D826C0 /* main.m */; };
+		00A27EA3192352BE00D826C0 /* LQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A27EA2192352BE00D826C0 /* LQAppDelegate.m */; };
+		00A27EA6192352BE00D826C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A27EA4192352BE00D826C0 /* Main.storyboard */; };
+		00A27EA9192352BE00D826C0 /* LQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A27EA8192352BE00D826C0 /* LQViewController.m */; };
+		00A27EAB192352BE00D826C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A27EAA192352BE00D826C0 /* Images.xcassets */; };
+		00A27EB2192352BE00D826C0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A27EB1192352BE00D826C0 /* XCTest.framework */; };
+		00A27EB3192352BE00D826C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A27E92192352BE00D826C0 /* Foundation.framework */; };
+		00A27EB4192352BE00D826C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A27E96192352BE00D826C0 /* UIKit.framework */; };
+		00A27EBC192352BE00D826C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00A27EBA192352BE00D826C0 /* InfoPlist.strings */; };
+		00A27EBE192352BE00D826C0 /* FadeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A27EBD192352BE00D826C0 /* FadeTests.m */; };
+		00A27ECD192352F600D826C0 /* login_introduce_bg1-586h_os7@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00A27EC7192352F600D826C0 /* login_introduce_bg1-586h_os7@2x.jpg */; };
+		00A27ECE192352F600D826C0 /* login_introduce_bg2-586h_os7@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00A27EC8192352F600D826C0 /* login_introduce_bg2-586h_os7@2x.jpg */; };
+		00A27ECF192352F600D826C0 /* login_introduce_bg3-586h_os7@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00A27EC9192352F600D826C0 /* login_introduce_bg3-586h_os7@2x.jpg */; };
+		00A27ED0192352F600D826C0 /* login_introduce_bg4-586h_os7@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00A27ECA192352F600D826C0 /* login_introduce_bg4-586h_os7@2x.jpg */; };
+		00A27ED1192352F600D826C0 /* UINavigationController+Fade.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A27ECC192352F600D826C0 /* UINavigationController+Fade.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00A27EB5192352BE00D826C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00A27E87192352BE00D826C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00A27E8E192352BE00D826C0;
+			remoteInfo = Fade;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A27E8F192352BE00D826C0 /* Fade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A27E92192352BE00D826C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		00A27E94192352BE00D826C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		00A27E96192352BE00D826C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		00A27E9A192352BE00D826C0 /* Fade-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fade-Info.plist"; sourceTree = "<group>"; };
+		00A27E9C192352BE00D826C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00A27E9E192352BE00D826C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00A27EA0192352BE00D826C0 /* Fade-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fade-Prefix.pch"; sourceTree = "<group>"; };
+		00A27EA1192352BE00D826C0 /* LQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQAppDelegate.h; sourceTree = "<group>"; };
+		00A27EA2192352BE00D826C0 /* LQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQAppDelegate.m; sourceTree = "<group>"; };
+		00A27EA5192352BE00D826C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00A27EA7192352BE00D826C0 /* LQViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQViewController.h; sourceTree = "<group>"; };
+		00A27EA8192352BE00D826C0 /* LQViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQViewController.m; sourceTree = "<group>"; };
+		00A27EAA192352BE00D826C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		00A27EB0192352BE00D826C0 /* FadeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FadeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A27EB1192352BE00D826C0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		00A27EB9192352BE00D826C0 /* FadeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FadeTests-Info.plist"; sourceTree = "<group>"; };
+		00A27EBB192352BE00D826C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00A27EBD192352BE00D826C0 /* FadeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FadeTests.m; sourceTree = "<group>"; };
+		00A27EC7192352F600D826C0 /* login_introduce_bg1-586h_os7@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "login_introduce_bg1-586h_os7@2x.jpg"; sourceTree = "<group>"; };
+		00A27EC8192352F600D826C0 /* login_introduce_bg2-586h_os7@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "login_introduce_bg2-586h_os7@2x.jpg"; sourceTree = "<group>"; };
+		00A27EC9192352F600D826C0 /* login_introduce_bg3-586h_os7@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "login_introduce_bg3-586h_os7@2x.jpg"; sourceTree = "<group>"; };
+		00A27ECA192352F600D826C0 /* login_introduce_bg4-586h_os7@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "login_introduce_bg4-586h_os7@2x.jpg"; sourceTree = "<group>"; };
+		00A27ECB192352F600D826C0 /* UINavigationController+Fade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Fade.h"; sourceTree = "<group>"; };
+		00A27ECC192352F600D826C0 /* UINavigationController+Fade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Fade.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00A27E8C192352BE00D826C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A27E95192352BE00D826C0 /* CoreGraphics.framework in Frameworks */,
+				00A27E97192352BE00D826C0 /* UIKit.framework in Frameworks */,
+				00A27E93192352BE00D826C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A27EAD192352BE00D826C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A27EB2192352BE00D826C0 /* XCTest.framework in Frameworks */,
+				00A27EB4192352BE00D826C0 /* UIKit.framework in Frameworks */,
+				00A27EB3192352BE00D826C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00A27E86192352BE00D826C0 = {
+			isa = PBXGroup;
+			children = (
+				00A27E98192352BE00D826C0 /* Fade */,
+				00A27EB7192352BE00D826C0 /* FadeTests */,
+				00A27E91192352BE00D826C0 /* Frameworks */,
+				00A27E90192352BE00D826C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00A27E90192352BE00D826C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00A27E8F192352BE00D826C0 /* Fade.app */,
+				00A27EB0192352BE00D826C0 /* FadeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00A27E91192352BE00D826C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00A27E92192352BE00D826C0 /* Foundation.framework */,
+				00A27E94192352BE00D826C0 /* CoreGraphics.framework */,
+				00A27E96192352BE00D826C0 /* UIKit.framework */,
+				00A27EB1192352BE00D826C0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00A27E98192352BE00D826C0 /* Fade */ = {
+			isa = PBXGroup;
+			children = (
+				00A27EA1192352BE00D826C0 /* LQAppDelegate.h */,
+				00A27EA2192352BE00D826C0 /* LQAppDelegate.m */,
+				00A27EA4192352BE00D826C0 /* Main.storyboard */,
+				00A27EA7192352BE00D826C0 /* LQViewController.h */,
+				00A27EC7192352F600D826C0 /* login_introduce_bg1-586h_os7@2x.jpg */,
+				00A27EC8192352F600D826C0 /* login_introduce_bg2-586h_os7@2x.jpg */,
+				00A27EC9192352F600D826C0 /* login_introduce_bg3-586h_os7@2x.jpg */,
+				00A27ECA192352F600D826C0 /* login_introduce_bg4-586h_os7@2x.jpg */,
+				00A27ECB192352F600D826C0 /* UINavigationController+Fade.h */,
+				00A27ECC192352F600D826C0 /* UINavigationController+Fade.m */,
+				00A27EA8192352BE00D826C0 /* LQViewController.m */,
+				00A27EAA192352BE00D826C0 /* Images.xcassets */,
+				00A27E99192352BE00D826C0 /* Supporting Files */,
+			);
+			path = Fade;
+			sourceTree = "<group>";
+		};
+		00A27E99192352BE00D826C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00A27E9A192352BE00D826C0 /* Fade-Info.plist */,
+				00A27E9B192352BE00D826C0 /* InfoPlist.strings */,
+				00A27E9E192352BE00D826C0 /* main.m */,
+				00A27EA0192352BE00D826C0 /* Fade-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00A27EB7192352BE00D826C0 /* FadeTests */ = {
+			isa = PBXGroup;
+			children = (
+				00A27EBD192352BE00D826C0 /* FadeTests.m */,
+				00A27EB8192352BE00D826C0 /* Supporting Files */,
+			);
+			path = FadeTests;
+			sourceTree = "<group>";
+		};
+		00A27EB8192352BE00D826C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00A27EB9192352BE00D826C0 /* FadeTests-Info.plist */,
+				00A27EBA192352BE00D826C0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00A27E8E192352BE00D826C0 /* Fade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A27EC1192352BE00D826C0 /* Build configuration list for PBXNativeTarget "Fade" */;
+			buildPhases = (
+				00A27E8B192352BE00D826C0 /* Sources */,
+				00A27E8C192352BE00D826C0 /* Frameworks */,
+				00A27E8D192352BE00D826C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fade;
+			productName = Fade;
+			productReference = 00A27E8F192352BE00D826C0 /* Fade.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00A27EAF192352BE00D826C0 /* FadeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A27EC4192352BE00D826C0 /* Build configuration list for PBXNativeTarget "FadeTests" */;
+			buildPhases = (
+				00A27EAC192352BE00D826C0 /* Sources */,
+				00A27EAD192352BE00D826C0 /* Frameworks */,
+				00A27EAE192352BE00D826C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00A27EB6192352BE00D826C0 /* PBXTargetDependency */,
+			);
+			name = FadeTests;
+			productName = FadeTests;
+			productReference = 00A27EB0192352BE00D826C0 /* FadeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00A27E87192352BE00D826C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LQ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = robin;
+				TargetAttributes = {
+					00A27EAF192352BE00D826C0 = {
+						TestTargetID = 00A27E8E192352BE00D826C0;
+					};
+				};
+			};
+			buildConfigurationList = 00A27E8A192352BE00D826C0 /* Build configuration list for PBXProject "Fade" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00A27E86192352BE00D826C0;
+			productRefGroup = 00A27E90192352BE00D826C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00A27E8E192352BE00D826C0 /* Fade */,
+				00A27EAF192352BE00D826C0 /* FadeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00A27E8D192352BE00D826C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A27ECE192352F600D826C0 /* login_introduce_bg2-586h_os7@2x.jpg in Resources */,
+				00A27EAB192352BE00D826C0 /* Images.xcassets in Resources */,
+				00A27E9D192352BE00D826C0 /* InfoPlist.strings in Resources */,
+				00A27ECD192352F600D826C0 /* login_introduce_bg1-586h_os7@2x.jpg in Resources */,
+				00A27ECF192352F600D826C0 /* login_introduce_bg3-586h_os7@2x.jpg in Resources */,
+				00A27ED0192352F600D826C0 /* login_introduce_bg4-586h_os7@2x.jpg in Resources */,
+				00A27EA6192352BE00D826C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A27EAE192352BE00D826C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A27EBC192352BE00D826C0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00A27E8B192352BE00D826C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A27E9F192352BE00D826C0 /* main.m in Sources */,
+				00A27ED1192352F600D826C0 /* UINavigationController+Fade.m in Sources */,
+				00A27EA3192352BE00D826C0 /* LQAppDelegate.m in Sources */,
+				00A27EA9192352BE00D826C0 /* LQViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00A27EAC192352BE00D826C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A27EBE192352BE00D826C0 /* FadeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00A27EB6192352BE00D826C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00A27E8E192352BE00D826C0 /* Fade */;
+			targetProxy = 00A27EB5192352BE00D826C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00A27E9B192352BE00D826C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A27E9C192352BE00D826C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		00A27EA4192352BE00D826C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A27EA5192352BE00D826C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00A27EBA192352BE00D826C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A27EBB192352BE00D826C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00A27EBF192352BE00D826C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00A27EC0192352BE00D826C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00A27EC2192352BE00D826C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fade/Fade-Prefix.pch";
+				INFOPLIST_FILE = "Fade/Fade-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		00A27EC3192352BE00D826C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fade/Fade-Prefix.pch";
+				INFOPLIST_FILE = "Fade/Fade-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		00A27EC5192352BE00D826C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fade.app/Fade";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fade/Fade-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FadeTests/FadeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		00A27EC6192352BE00D826C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fade.app/Fade";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fade/Fade-Prefix.pch";
+				INFOPLIST_FILE = "FadeTests/FadeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00A27E8A192352BE00D826C0 /* Build configuration list for PBXProject "Fade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A27EBF192352BE00D826C0 /* Debug */,
+				00A27EC0192352BE00D826C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A27EC1192352BE00D826C0 /* Build configuration list for PBXNativeTarget "Fade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A27EC2192352BE00D826C0 /* Debug */,
+				00A27EC3192352BE00D826C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		00A27EC4192352BE00D826C0 /* Build configuration list for PBXNativeTarget "FadeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A27EC5192352BE00D826C0 /* Debug */,
+				00A27EC6192352BE00D826C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00A27E87192352BE00D826C0 /* Project object */;
+}
