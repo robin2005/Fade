@@ -34,7 +34,8 @@
 {
     [super viewDidAppear:YES];
     int conut = [self.navigationController.viewControllers count];
-    if (conut > 1 ) {
+    if (conut > 1 )
+    {
         UIButton *btLeft = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 44, 44)];
         btLeft.imageEdgeInsets = UIEdgeInsetsMake(0, -30, 0, 0);
         [btLeft setTitle:@"返回" forState:UIControlStateNormal];

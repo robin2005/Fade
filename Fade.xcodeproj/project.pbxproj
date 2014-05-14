@@ -127,13 +127,13 @@
 				00A27EA2192352BE00D826C0 /* LQAppDelegate.m */,
 				00A27EA4192352BE00D826C0 /* Main.storyboard */,
 				00A27EA7192352BE00D826C0 /* LQViewController.h */,
+				00A27EA8192352BE00D826C0 /* LQViewController.m */,
 				00A27EC7192352F600D826C0 /* login_introduce_bg1-586h_os7@2x.jpg */,
 				00A27EC8192352F600D826C0 /* login_introduce_bg2-586h_os7@2x.jpg */,
 				00A27EC9192352F600D826C0 /* login_introduce_bg3-586h_os7@2x.jpg */,
 				00A27ECA192352F600D826C0 /* login_introduce_bg4-586h_os7@2x.jpg */,
 				00A27ECB192352F600D826C0 /* UINavigationController+Fade.h */,
 				00A27ECC192352F600D826C0 /* UINavigationController+Fade.m */,
-				00A27EA8192352BE00D826C0 /* LQViewController.m */,
 				00A27EAA192352BE00D826C0 /* Images.xcassets */,
 				00A27E99192352BE00D826C0 /* Supporting Files */,
 			);
@@ -479,6 +479,7 @@
 				00A27EC3192352BE00D826C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00A27EC4192352BE00D826C0 /* Build configuration list for PBXNativeTarget "FadeTests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +488,7 @@
 				00A27EC6192352BE00D826C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
